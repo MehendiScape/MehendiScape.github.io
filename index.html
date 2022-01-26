@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mehendi Scape</title>
+	<link rel="icon" href="logo.jpg">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload= Api()>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-md navbar-light fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"><img class="bg-info rounded-circle" src="logo.jpg" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="icon ion-ios-menu"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Videos">Videos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- end navbar -->
+
+	<!-- home intro -->
+	<div id="home" class="home-intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content">
+						<h2><span class="color-highlight">Join</span></h2>
+						<h2>Mehendi Scape<span class="color-highlight"> Family</span></h2>
+						<p>Deticated to Design</p>
+						<ul>
+							<li><a href="https://www.youtube.com/channel/UCTkgQ_-7Be20U4sVHFoQV1w/featured?sub_confirmation=1" class="button">Subscribe Now</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<div class="content-image">
+						<img src="images/henna.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- portfolio -->
+	<div id="Videos" class="portfolio section-bottom-only">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">YouTube</h5>
+				<h3>Videos</h3>
+			</div>
+			<div class="portfolio-filter-menu">
+				<ul>
+					<li data-filter="all" class="active">
+						<span>All</span>
+					</li>
+					<li data-filter="1">
+						<span>Shorts</span>
+					</li>
+				</ul>
+			</div>
+			<div id="pass" class="row no-gutters filter-container">
+				
+			</div>
+		</div>
+	</div>
+	<!-- end portfolio -->
+
+
+	<!-- contact -->
+	<div id="contact" class="contact section-bottom-only">
+		<div class="container">
+			<div class="section-title">
+				<h5 class="title-top">Contact Us</h5>
+				<h3>Let's Join Us</h3>
+			</div>
+			<div class="box-content">
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<div class="content">
+							<h5>Address</h5>
+							<p>Perungudi,Chennai-600096</p>
+							<h5>Phone</h5>
+							<p>+91 9787080544</p>
+							<h5>Email</h5>
+							<p>kavithabownan@gmail.com</p>
+						</div>
+					</div>
+					<div class="col-md-8 col-sm-12">
+						<div class="content-right">
+							<form action="contact-form.php" class="contact-form" id="contact-form" method="post">
+								<div class="row">
+									<div class="col">
+										<div id="first-name-field">
+											<input type="text" placeholder="Name" name="form-name">
+										</div>
+									</div>
+									<div class="col">
+										<div id="email-field">
+											<input type="email" placeholder="Email Address" name="form-email">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<div id="subject-field">
+											<input type="text" placeholder="Subject" name="form-subject">
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<div id="message-field">
+											<textarea cols="30" rows="5" id="form-message" name="form-message" placeholder="Message"></textarea>
+										</div>
+									</div>
+								</div>
+								<button class="button" type="submit" id="submit" name="submit">Send Message</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end contact -->
+
+
+
+	<!-- script -->
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/jquery.filterizr.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/contact-form.js"></script>
+	<script src="js/videos.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
