@@ -15,6 +15,13 @@ $.getJSON("https://noembed.com/embed?url=https://www.youtube.com/watch?v=eqiytMh
 $.getJSON("https://noembed.com/embed?url=https://www.youtube.com/watch?v=OkThP0fmEo8&ab_channel=MehendiScape", function(data) {
     advid(data);
 });
+$.getJSON(
+  "https://noembed.com/embed?url=https://www.youtube.com/watch?v=XzVuTOVHziU&ab_channel=MehendiScape",
+  function (data) {
+    advid(data);
+  }
+);
+
 //loadJson("https://www.youtube.com/watch?v=JGeig0gc1LE&ab_channel=MehendiScape",avid)
 //advid('https://www.youtube.com/watch?v=JGeig0gc1LE&ab_channel=MehendiScape');
 //advid("https://www.youtube.com/watch?v=HfUaZaCabtE&ab_channel=MehendiScape");

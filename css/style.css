@@ -187,7 +187,8 @@ ul li {
 }
 
 .navbar .navbar-brand img {
-    width: 55px;
+    width: 5em;
+    align-items: center;
     margin-right: 10px;
 }
 
